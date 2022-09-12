@@ -65,10 +65,28 @@ html, body, main
 /***** Fonctionnement ****************************************************************************************************************************************************************************/
 .titlefonctionnement
 {
-  padding-left: 16%;
-  padding-top: 20px;
+margin: 0;
+}
+
+.containerfonctionnement {
+  padding: 25px 0;
+  width: 100%;
+  background: white;
+}
+
+.containerfonctionnementchild {
+  width: 95%;
+  max-width: 1200px;
+  background-color: white;
+  padding: 0;
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.containerfonctionnementchild1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .containerfonctionnementbuttons
@@ -81,25 +99,17 @@ html, body, main
 .fonctionnmenticons
 {
   color: #7e7e7e;
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
-.fonction1
-{
-  width: 30%;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.2);
-}
-
-.circlenumber
-{
+.circlenumber {
   background-color: #9356DC;
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  position: relative;
-  left: -10px;
   color: white;
+  position: absolute;
+  padding: 3px 8px 3px 8px;
+  border-radius: 50%;
+  margin-left: -15px;
 }
 
 .textfonctionnement 
@@ -117,20 +127,23 @@ html, body, main
   align-content: center;
 }
 
-.fonctionnmentbuttons
-{
-  border: 2px solid #f2f2f2;
-  height: 50px;
-  border-radius: 35px;
+.fonctionnmentbuttons {
+  display: flex;
+  align-items: center;
+  background: #f6f6f6;
+  height: auto;
+  width: auto;
+  margin: 10px 20px;
+  border-radius: 20px;
+  position: relative;
   cursor: grab;
-  background-color: #f6f6f6;
   box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.1);
 }
 
-.fonctionnmentbuttons:hover
-{
-  background-color: white;
-  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.3);
+.fonctionnmentbuttons:hover {
+  opacity: 0.8;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+  background: white;
 }
 
 /***** MENU **************************************************************************************************************************************************************************************/
