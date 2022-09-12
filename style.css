@@ -316,7 +316,11 @@ html, body, main
 }
 
 /***** Responsive ********************************************************************************************************************************************************************************/
-@media screen and (max-width: 1669px) 
+@media screen and (max-width: 800px)
 {
-
+    .fonctionnmentbuttons
+    {
+        display: flex;
+        width: 100%;
+    }
 }
