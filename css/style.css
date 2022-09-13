@@ -262,6 +262,13 @@ margin: 0;
   flex-direction: column;
 }
 
+.containerfooterchild 
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .logofooter
 {
   padding-left: 20px;
@@ -279,6 +286,7 @@ margin: 0;
   height: auto;
   position: relative;
   cursor: grab;
+  text-decoration: none;
 }
 
 .footertext 
@@ -303,13 +311,6 @@ margin: 0;
 {
   border-bottom: 1px solid white;
   cursor: grab;
-}
-
-.containerfonctionnementchild2 
-{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }
 
 /***** FLEX BOX **********************************************************************************************************************************************************************************/
@@ -375,7 +376,7 @@ margin: 0;
     flex-direction: row;
     width: 100%;
   }
-  .containerfonctionnementchild2 {
+  .containerfooterchild {
     display: flex;
     justify-content: center;
     flex-direction: row;
