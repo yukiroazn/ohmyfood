@@ -155,25 +155,14 @@ margin: 0;
 {
   background-color: #f6f6f6;
   background-size: cover;
-  margin-top: 50px;
-  height: 1280px;
-}
-
-.menutitle
-{
-  margin-top: 50px;
-}
-
-.menucards
-{
-  display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
+  padding-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .card
 {
-  width: 33%;
+  width: 30%;
   background-color: white;
   border-radius: 20px;
   box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.2);
@@ -213,44 +202,68 @@ margin: 0;
   padding-bottom: 1%;
 }
 
-
 .textrestaurant
 {
-  padding-left: 16%;
+  padding-left: 19%;
   padding-top: 50px;
   display: flex;
   justify-content: flex-start;
 }
 
+.row1 
+{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.row2 
+{
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.containertexmenu
+{
+  width: 90%;
+}
 
 /***** Footer ************************************************************************************************************************************************************************************/
 .footer
 {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #353535;
+  padding-top: 25px;
+  width: 100%;
+  padding-bottom: 1%;
+  background: #353535;
+}
+
+.containerfooter
+{
+  width: 95%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
 }
 
 .logofooter
 {
-  display: flex;
-  justify-content: center;
-  margin-right: 50%;
-  margin-bottom: -5px;
-  padding-top: 20px;
-}
-
-.footernav
-{
-  margin-right: 20px;
-  cursor: grab;
-  margin-bottom: 10px;
+  padding-left: 20px;
 }
 
 .footerdeleteunderline
 {
   text-decoration: none;
+}
+
+.footernav 
+{
+  display: flex;
+  align-items: center;
+  height: auto;
+  position: relative;
+  cursor: grab;
 }
 
 .footertext 
@@ -277,16 +290,12 @@ margin: 0;
   cursor: grab;
 }
 
-
-
-
-
-
-
-
-
-
-
+.containerfonctionnementchild2 
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
 /***** FLEX BOX **********************************************************************************************************************************************************************************/
 .flexCenter
@@ -340,10 +349,51 @@ margin: 0;
   .fonctionnmentbuttons {
     width: 100%;
   }
+
+  .footernav {
+    width: 100%;
+  }
+
   .containerfonctionnementchild1 {
     display: flex;
     justify-content: center;
     flex-direction: row;
     width: 100%;
+  }
+  .containerfonctionnementchild2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:768px)
+{
+
+  .row1
+  {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .row2
+  {
+    flex-direction: column;
+    margin-top: 13px;
+  }
+
+  .card
+  {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .textrestaurant
+  {
+  padding-left: 0.1%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: flex-start;
   }
 }
