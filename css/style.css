@@ -256,6 +256,35 @@ margin: 0;
   position: absolute;
   top: -3.5rem;
   right: 1rem;
+  background-clip: text;
+  transition: 500ms;
+  opacity: 1;
+}
+
+.heart:hover
+{
+  opacity: 0;
+}
+
+.heart1
+{
+  font-size: 2rem;
+  right: 5rem;
+  position: absolute;
+  top: -3.5rem;
+  right: 1rem;
+  background-clip: text;
+  transition: 500ms;
+  opacity: 0;
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.heart1:hover
+{
+  opacity: 1;
 }
 
 /***** Footer ************************************************************************************************************************************************************************************/
