@@ -183,19 +183,16 @@ margin: 0;
 {
   display: flex;
   justify-content: flex-start;
-  padding-left: 5%;
   width: 95%;
-  margin-bottom: -5px;
+  margin-bottom: -10px;
+  margin-top: 8px;
 }
 
 .textcity
 {
   display: flex;
   justify-content: flex-start;
-  padding-left: 5%;
   width: 95%;
-  margin-top: 8px;
-  padding-bottom: 1%;
 }
 
 .textrestaurant
@@ -235,14 +232,30 @@ margin: 0;
 {
   content: "Nouveau";
   position: absolute;
-  height: 2rem;
-  width: 5rem;
+  height: 2.5rem;
+  width: 8rem;
   background-color: #99e2d0;
-  display: grid;
+  display: flex;
+  text-align: center;
+  justify-content: center;
   place-items: center;
   right: 2rem;
   top: 2rem;
   color: #008766;
+}
+
+.heartcontainer
+{
+  position: relative;
+}
+
+.heart
+{
+  font-size: 2rem;
+  right: 5rem;
+  position: absolute;
+  top: -3.5rem;
+  right: 1rem;
 }
 
 /***** Footer ************************************************************************************************************************************************************************************/
@@ -384,7 +397,7 @@ margin: 0;
   }
 }
 
-@media screen and (max-width:768px)
+@media screen and (max-width:890px)
 {
 
   .row1
