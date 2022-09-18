@@ -256,7 +256,6 @@ margin: 0;
   position: absolute;
   top: -3.5rem;
   right: 1rem;
-  background-clip: text;
 }
 
 .heart:hover
@@ -271,7 +270,6 @@ margin: 0;
   position: absolute;
   top: -3.5rem;
   right: 1rem;
-  background-clip: text;
   transition: 500ms ease-in-out;
   opacity: 0;
   background-image: linear-gradient(#FF79DA, #9356DC);
