@@ -1,0 +1,377 @@
+/***** Page Fonts and Header *********************************************************************************************************************************************************************/
+header
+{
+  font-family: 'Shrikhand', cursive;
+  box-shadow: 3px 3px 5px grey;
+  padding: 1px;
+  background-color: white;
+  position: relative;
+}
+
+html, body, main
+{
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+
+/***** Titles ************************************************************************************************************************************************************************************/
+.titles
+{
+  text-align: center;
+  background-color: #f6f6f6;
+  padding: 3%;
+  padding-top: 30px;
+  margin: auto;
+}
+
+.explorerbutton
+{
+  border: 0;
+  font-size: 15px;
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  border-radius: 40px;
+  height: 50px;
+  width: 200px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  cursor: grab;
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.3);
+}
+
+.explorerbutton:hover
+{
+  opacity: 0.8;
+  transition: 0.6s;
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.90);
+}
+
+
+/***** MENU **************************************************************************************************************************************************************************************/
+.heartcontainer
+{
+  position: relative;
+}
+
+.heart
+{
+  font-size: 20px;
+  font-weight: bold;
+  right: 5rem;
+  position: absolute;
+  top: -3rem;
+  right: 1rem;
+}
+
+.heart:hover
+{
+  opacity: 0;
+}
+
+.heart1
+{
+  font-size: 2rem;
+  right: 5rem;
+  position: absolute;
+  top: -3.5rem;
+  right: 1rem;
+  transition: 500ms ease-in-out;
+  opacity: 0;
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.heart1:hover
+{
+  opacity: 1;
+}
+
+/***** Footer ************************************************************************************************************************************************************************************/
+.banner
+{
+  max-width: 100%;
+}
+
+
+
+
+/***** Footer ************************************************************************************************************************************************************************************/
+.footer
+{
+  padding-top: 25px;
+  width: 100%;
+  padding-bottom: 1%;
+  background: #353535;
+}
+
+.containerfooter
+{
+  width: 95%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerfooterchild 
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logofooter
+{
+  padding-left: 20px;
+}
+
+.footerdeleteunderline
+{
+  text-decoration: none;
+}
+
+.footernav 
+{
+  display: flex;
+  align-items: center;
+  height: auto;
+  position: relative;
+  cursor: grab;
+  text-decoration: none;
+}
+
+.footertext 
+{
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 100px;
+  text-decoration: none;
+}
+
+.footertextcolor
+{
+  color: white;
+}
+
+.borderlinebottom 
+{
+  border-bottom: 1px solid transparent;
+}
+
+.borderlinebottom:hover 
+{
+  border-bottom: 1px solid white;
+  cursor: grab;
+}
+
+/***** LOADER *************************************************************************************************************************************************************************************/
+.loadercontainer
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: disappear 2s;
+  visibility: hidden;
+}
+
+.loader 
+{
+display: inline-block;
+width: 30px;
+height: 30px;
+position: absolute;
+border: 4px solid #FF79DA;
+animation: loader 2s infinite ease;
+top: 30rem;
+}
+
+.loader-inner 
+{
+vertical-align: top;
+display: inline-block;
+width: 100%;
+background-color: #9356DC;
+animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader 
+{
+  75%
+  {
+  transform: rotate(360deg);
+  }
+
+  100%
+  {
+  transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-inner 
+{
+  0%
+  {
+  height: 0%;
+  }
+
+  25%
+  {
+  height: 0%;
+  }
+
+  50%
+  {
+  height: 100%;
+  }
+
+  75%
+  {
+  height: 100%;
+  }
+
+}
+
+@keyframes disappear 
+{
+  0%
+  {
+    visibility: visible;
+    opacity: 0.9;
+  }
+
+  70%
+  {
+    opacity: 0.9;
+  }
+
+  100%
+  {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+/***** FLEX BOX **********************************************************************************************************************************************************************************/
+.flexCenter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexAround
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexBetween
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexColumnCenter 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColumnAround
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flexColumnBetween
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+/***** Responsive ********************************************************************************************************************************************************************************/
+
+@media screen and (min-width: 800px) {
+
+  .fonctionnmentbuttons
+  {
+    width: 100%;
+  }
+
+  .footernav
+  {
+    width: 100%;
+  }
+
+  .containerfonctionnementchild1
+  {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+  }
+  .containerfooterchild
+  {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:890px)
+{
+
+  .row1
+  {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .row2
+  {
+    flex-direction: column;
+    margin-top: 13px;
+  }
+
+  .card
+  {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .textrestaurant
+  {
+  padding-left: 0.1%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width:410px)
+{
+
+  .boxnew::before
+  {
+    right: 0.8rem;
+    top: 1rem;
+    height: 2rem;
+    width: 5rem;
+  }
+}
+
+
