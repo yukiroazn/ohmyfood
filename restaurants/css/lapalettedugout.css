@@ -85,6 +85,7 @@ h2
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  cursor: grab;
 }
 
 .heart1:hover
@@ -131,10 +132,8 @@ h2
 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  object-position: center;
-  position: relative;
-  gap: 10rem;
-  padding: 0 6rem;
+  gap: 1.3rem;
+  padding-left: 65px;
 }
 
 .price
@@ -146,7 +145,7 @@ h2
 
 .foodbox
 {
-  width: 200%;
+  width: 85%;
   height: 50%;
   background-color: white;
   border-radius: 10px;
