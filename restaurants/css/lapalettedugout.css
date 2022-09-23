@@ -110,6 +110,14 @@ h2
   color: black;
 }
 
+.deleteunderline
+{
+  text-decoration: none;
+  color: black;
+}
+
+/***** Menu **************************************************************************************************************************************************************************************/
+
 .menucontainer {
   border-radius: 32px 32px 0 0;
   background-color: #f6f6f6;
@@ -167,52 +175,6 @@ h2
   padding-top: 50px;
   display: flex;
   justify-content: flex-start;
-}
-
-
-/***** FLEX BOX **********************************************************************************************************************************************************************************/
-.flexCenter
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.flexAround
-{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.flexBetween
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.flexColumnCenter 
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.flexColumnAround
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.flexColumnBetween
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  
 }
 
 /***** Footer ************************************************************************************************************************************************************************************/
@@ -306,4 +268,48 @@ h2
     flex-direction: row;
     width: 100%;
   }
+}
+
+/***** FLEX BOX **********************************************************************************************************************************************************************************/
+.flexCenter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexAround
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexBetween
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexColumnCenter 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColumnAround
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flexColumnBetween
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
