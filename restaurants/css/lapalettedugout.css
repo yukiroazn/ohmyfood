@@ -134,38 +134,38 @@ h2
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1.3rem;
   padding-left: 65px;
+  padding-right: 30px
 }
 
 .price
 {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
-  padding-left: 160px;
 }
 
 .foodbox
 {
-  width: 85%;
-  height: 50%;
+  width: 90%;
+  height: 28%;
   background-color: white;
   border-radius: 10px;
   box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.2);
-  text-decoration: none;
-  color: black;
 }
+
 
 .textmenu
 {
   width: 100%;
-  margin-bottom: -1px;
-  padding-top: 6px;
-  padding-left: 10px
+  margin-bottom: 1px;
+  padding-top: 10px;
+  padding-left: 20px
 }
 
 .textmenusub
 {
   width: 100%;
-  padding-left: 10px
+  padding-left: 20px;
+  font-size: 15px;
 }
 
 .textrestaurant
@@ -311,4 +311,23 @@ h2
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@keyframes rotate-center 
+{
+  100%
+  {
+  transform: rotate(360deg);
+  }
+}
+
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
