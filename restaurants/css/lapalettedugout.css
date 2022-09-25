@@ -137,12 +137,6 @@ h2
   padding-right: 30px
 }
 
-.price
-{
-  font-size: 15px;
-  font-weight: bold;
-}
-
 .foodbox
 {
   width: 90%;
@@ -152,9 +146,9 @@ h2
   box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.2);
 }
 
-
 .textmenu
 {
+  font-size: 17px;
   width: 100%;
   margin-bottom: 1px;
   padding-top: 10px;
@@ -163,6 +157,7 @@ h2
 
 .textmenusub
 {
+  font-size: 17px;
   width: 100%;
   padding-left: 20px;
   font-size: 15px;
@@ -174,6 +169,69 @@ h2
   padding-top: 50px;
   display: flex;
   justify-content: flex-start;
+}
+
+.price
+{
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  padding-left: 20rem;
+  margin-top: -1.2rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.price:hover
+{
+  transform: translateX(-50px);
+}
+
+.fadeaway1 {
+  animation: show 0.3s 0.3s backwards;
+}
+
+.fadeaway2 {
+  animation: show 0.3s 0.4s backwards;
+}
+
+.fadeaway3 {
+  animation: show 0.3s 0.5s backwards;
+}
+
+.fadeaway4 {
+  animation: show 0.3s 0.6s backwards;
+}
+
+.fadeaway5 {
+  animation: show 0.3s 0.7s backwards;
+}
+
+.fadeaway6 {
+  animation: show 0.3s 0.8s backwards;
+}
+
+.fadeaway7 {
+  animation: show 0.3s 0.9s backwards;
+}
+
+.fadeaway8 {
+  animation: show 0.3s 1s backwards;
+}
+
+.fadeaway9 {
+  animation: show 0.3s 1.1s backwards;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /***** Footer ************************************************************************************************************************************************************************************/
@@ -311,23 +369,4 @@ h2
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-@keyframes rotate-center 
-{
-  100%
-  {
-  transform: rotate(360deg);
-  }
-}
-
-@keyframes loader {
-  0% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
 }
