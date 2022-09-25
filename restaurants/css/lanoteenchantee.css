@@ -271,6 +271,10 @@ h2
   animation: show 0.3s 1.1s backwards;
 }
 
+.fadeaway10 {
+  animation: show 0.3s 1.2s backwards;
+}
+
 @keyframes show {
   0% {
     opacity: 0;
