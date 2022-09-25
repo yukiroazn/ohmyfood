@@ -134,7 +134,8 @@ h2
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1.3rem;
   padding-left: 65px;
-  padding-right: 30px
+  padding-right: 30px;
+  user-select: none;
 }
 
 .foodbox
