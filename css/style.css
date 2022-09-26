@@ -23,11 +23,31 @@ html, body, main
 .backgroundcolorparisbelleville
 {
   background-color: #eaeaea;
+  height: 50px;
 }
 
 .parisbellevillelocationlogocolor
 {
   color: #353535;
+}
+
+.searchbox
+{
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-weight: bold;
+  border: none;
+  background-color: #eaeaea;
+  width: 150px;
+}
+
+.paddingsearch
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
 }
 
 /***** Titles ************************************************************************************************************************************************************************************/
@@ -49,10 +69,15 @@ html, body, main
   border-radius: 40px;
   height: 50px;
   width: 200px;
-  color: white;
   font-family: 'Roboto', sans-serif;
   cursor: grab;
   box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.3);
+}
+
+.deleteunderline1
+{
+  text-decoration: none;
+  color: white;
 }
 
 .explorerbutton:hover
@@ -302,7 +327,7 @@ margin: 0;
 {
   padding-top: 25px;
   width: 100%;
-  padding-bottom: 1%;
+  padding-bottom: 2%;
   background: #353535;
 }
 
@@ -312,6 +337,7 @@ margin: 0;
   max-width: 1200px;
   display: flex;
   flex-direction: column;
+  gap: 2rem;
 }
 
 .containerfooterchild 
@@ -339,6 +365,16 @@ margin: 0;
   position: relative;
   cursor: grab;
   text-decoration: none;
+}
+
+.footermargin
+{
+  margin-top: -1.5rem;
+}
+
+.marginleft
+{
+  margin-left: -11px;
 }
 
 .footertext 

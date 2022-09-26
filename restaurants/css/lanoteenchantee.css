@@ -291,7 +291,7 @@ h2
 {
   padding-top: 25px;
   width: 100%;
-  padding-bottom: 1%;
+  padding-bottom: 2%;
   background: #353535;
 }
 
@@ -301,7 +301,7 @@ h2
   max-width: 1200px;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .containerfooterchild 
@@ -329,6 +329,16 @@ h2
   position: relative;
   cursor: grab;
   text-decoration: none;
+}
+
+.footermargin
+{
+  margin-top: -1.5rem;
+}
+
+.marginleft
+{
+  margin-left: -11px;
 }
 
 .footertext 
