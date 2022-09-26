@@ -38,8 +38,9 @@ html, body, main
   color: black;
   font-weight: bold;
   border: none;
-  background-color: #eaeaea;
   width: 150px;
+  background-color: transparent;
+  outline: none;
 }
 
 .paddingsearch
