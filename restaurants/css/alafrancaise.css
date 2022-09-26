@@ -396,10 +396,6 @@ h2
     margin-top: 3rem;
   }
 
-  .textmenu 
-  {
-  padding-top: -1rem;
-  }
 }
 
 @media screen and (max-width: 830px) 
