@@ -78,7 +78,6 @@ html, body, main
   background-image: linear-gradient(#FF79DA, #9356DC);
   border-radius: 40px;
   font-family: 'Roboto', sans-serif;
-  cursor: grab;
   box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.3);
   height: 50px;
   width: 200px;
