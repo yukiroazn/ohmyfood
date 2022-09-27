@@ -61,23 +61,32 @@ html, body, main
   text-align: center;
   margin-top: 50px;
   background-color: #f6f6f6;
-  padding: 3%;
   padding-top: 30px;
+  padding-bottom: 50px;
   margin: auto;
+}
+
+.minitext
+{
+  font-size: 20px;
+  color: #959595;
 }
 
 .explorerbutton
 {
-  border: 0;
   font-size: 15px;
   background-image: linear-gradient(#FF79DA, #9356DC);
   border-radius: 40px;
-  height: 50px;
-  width: 200px;
   font-family: 'Roboto', sans-serif;
   cursor: grab;
   box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.3);
-  margin-left: 49.7rem;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 40px;
 }
 
 .deleteunderline1
